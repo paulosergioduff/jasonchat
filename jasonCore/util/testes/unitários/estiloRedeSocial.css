@@ -1,0 +1,46 @@
+	#nomeDeUsuario
+		{
+			background-color: #1C86EE;
+			color: white;	
+			border-radius: 20px;
+			font-size: 24px;		
+					}
+	#titulo
+		{
+			color: black;
+			font-size: 36px;
+		}
+	#conteudo
+		{
+			color: black;
+		}
+	#resumo
+		{
+			color: black;
+			font-style: oblique ;
+		}
+
+	.ajusteGeral{
+		background-color: #CFCFCF;
+		padding-top: 1%;
+		padding-left: 1%;
+		width: 50%;
+		border-radius: 20px;
+		left: 5%;
+		position: relative;
+	}
+
+	#resposta{
+		background-color: #EEE9E9;
+		padding-top: 1%;
+		padding-left: 1%;
+		width: auto;
+		border-radius: 20px;
+		left: 50%;
+		position: absolute;
+		font-style: oblique ;
+	}
+
+	#fotoDePerfil{
+		border-radius: 45px;
+	}

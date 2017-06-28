@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles/default.css">
+<script src="highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<head>
+	<title></title>
+</head>
+<body>
+<pre><code class="php">
+	
+&lt;?php 
+
+interface JasonCore{
+	public function dataAccess($protocol, $type,$server,$dataBase,$user,$password);
+	public function sendMenssage($serverOrigin, $serverDestiny, $type, $autor, $menssage);
+	public function vote($type, $valueVote);
+}
+
+
+abstract Class JasonSN implements jasonCore{ // JasonSN - Jason Social Network
+	private $server;
+	private $type;
+	private $dataBase;
+	private $user;
+	private $password;
+	public function dataAccess($protocol, $type,$server,$dataBase,$user,$password)
+		{
+			
+		}
+
+		public function sendMenssage($serverOrigin, $serverDestiny, $type, $autor, $menssage){
+
+		}
+		public function vote($type, $valueVote){
+
+		}
+
+}
+
+?&gt;
+
+</code></pre>
+<pre><code class='php'>
+
+
+
+</pre></code>
+</body>
+</html>
