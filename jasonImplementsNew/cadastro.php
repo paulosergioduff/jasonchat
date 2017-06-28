@@ -26,7 +26,7 @@ if (!empty($_GET['mensagem'])) {
 				<div class="senha">Cadastre sua senha</div>
 				<input type="password" name="senha">
 				<input type="submit" name="ok" value="Cadastrar"><p><p>
-<?php error_reporting(0);
+<?php 
 
 
 

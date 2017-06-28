@@ -17,7 +17,7 @@
 <body>
 <div id="container">
 <!--<a href="#fim" style="color: black">ir para fim</a>-->
-<?php error_reporting(0);  header ('Content-type: text/html; charset=UTF-8');
+<?php   header ('Content-type: text/html; charset=UTF-8');
 
 require_once('installJason.php');
 include "padrao.php";

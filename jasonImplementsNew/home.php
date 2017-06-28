@@ -45,7 +45,7 @@
 				<input type="password" name="senha">
 				<input type="submit" name="ok" value="Logar"><p><p>
 
-<?php error_reporting(0);
+<?php 
 
 $mensagem = $_GET['mensagem'];
 

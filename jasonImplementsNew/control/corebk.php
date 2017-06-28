@@ -1,4 +1,4 @@
-<?php error_reporting(0);
+<?php 
 // Colocar isso acima "E_ALL ^ E_WARNING" e ativar esta linha Lini_set(“display_errors”, 1 );
 date_default_timezone_set("America/Sao_Paulo");
 

@@ -38,7 +38,7 @@
 <div id="container">
 
 <?php
-error_reporting(0);
+
 header('Content-type: text/html; charset=UTF-8');
 
 require_once('installJason.php');

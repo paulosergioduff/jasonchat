@@ -15,7 +15,7 @@
 <body>
 <div id="container">
 <a href="#fim" style="color: black">ir para fim</a>
-<?php error_reporting(0);
+<?php 
 
 require_once('installJason.php');
 include "padrao.php";

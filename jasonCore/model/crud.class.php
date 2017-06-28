@@ -1,4 +1,4 @@
-<?php error_reporting(0);
+<?php 
 /*  
  * Classe para operações CRUD na tabela tabela   
  * Estudar criação de tabelas em PDO https://www.todoespacoonline.com/w/2014/10/como-criar-bases-de-dados-e-tabelas-com-pdo/

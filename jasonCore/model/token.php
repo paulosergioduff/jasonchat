@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+
 /*
 
 Use este token para prevenir acesso indevido ao banco de dados, em requisições com retornos em JSON
