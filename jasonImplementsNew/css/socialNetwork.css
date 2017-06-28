@@ -1,0 +1,162 @@
+a:visited{
+	color: green;
+	text-decoration: none;
+}
+
+
+.mensagemPadrao{
+	width: 75%;
+
+}
+
+	#caixaDeMensagem{
+		position: relative;
+		background-color: #1E90FF;
+		color: white;
+		border-radius: 20px;
+		padding-top: 5px;		
+		padding-left: 5px;
+		width: 75%;
+		font-size: 24px;
+		left: 1%;
+		align-content: justify;
+		text-decoration: none 
+	}
+
+	#autor{
+		font-size: 12px;
+	}
+	#outroUsuario{
+		position: relative;
+		background-color: #DCDCDC;
+		color: black;
+		border-radius: 20px;
+		padding-top: 5px;		
+		padding-left: 5px;		
+		font-size: 24px;
+		left: 5%;
+	}
+
+	#botaoSocial{
+		position: relative;
+		background-color: #DCDCDC;
+		
+		border-radius: 20px;
+		padding-top: 5px;		
+		padding-left: 5px;
+		font-size: 24px;
+		border-color: black;
+		border-style: solid;
+	}
+
+	#enviarBotao{
+		position: fixed;
+		bottom: 0%;
+		height: 45%;
+		height: 85px;
+		width: 85px;
+		background-color: green;
+		border-radius: 85px;
+		color: white;
+		font-size: 56px;
+
+		padding-left: 15px;
+		
+
+
+		 -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+		 
+	}
+
+	#enviarBotao2{
+		background-color: green;
+		border-style: solid;
+		height: 150px;
+		width: 150px;
+		border-radius: 150px; 
+		
+	}
+
+
+	#fotoDePerfil
+	{
+		border-radius: 40px;
+	}
+
+
+	#doc{
+		background-color: #DCDCDC;
+		color: black;
+		border-radius: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;		
+		padding-left: 5px;
+		padding-right: 5px;
+		width: 65%;
+		border-color: black;
+		border-style: solid;
+
+		 height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+		
+	}
+
+	#recebeMensagem{
+		display: none;
+	}
+
+	#frameRecebeMensagens{
+		position: absolute;
+		top: 8%;
+		width: 100%;
+		z-index: 2;
+		
+	}
+
+	#caixaEnvioDeMensagem{
+		position: fixed;
+		bottom: 0px;
+		left: 5%;
+		z-index: 4;
+		background-color: rgba(0,0,0,0);
+		
+			}
+
+.sair{
+	position: fixed;
+	top: 0%;
+	right: 0%;
+
+		background-color: blue;
+		
+		border-radius: 20px;
+		padding-top: 5px;		
+		padding-left: 5px;
+		width: auto;
+		font-size: 24px;
+		
+}
+
+#caixaDeLogado
+	{
+		background-color: white;
+		position: fixed;
+		top: 0%;
+		left: 0%;
+		z-index: 9998;
+		width: 100%;
+	}
+
+
+
+
+

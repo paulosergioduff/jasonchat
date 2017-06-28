@@ -1,0 +1,59 @@
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.php">Live JSON</a><img src="img/jasonmask31x31.png">
+          
+<!-- IMAGEM DE NOVA MENSAGEM V
+          <a href="page.php?page=mensagens"><img src="http://apps.baudeineapp.de/myapplications/FabioWidmer/CydiaStore/unreadmail.png"></a>-->
+<!-- IMAGEM DE NOVA MENSAGEM V-->
+          
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+             
+            </ul></div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div><br>
+    <hr>
+<div style ="display:none">
+
+ 
+ <!-- zona invisivel --> 
+
+ 
+ 
+  </div>
+</hr>
+
+<?php echo $sinalizador; ?>
+ 
+ <?php include "view/menu.php"; ?>
+
+
+        </div>
+
+     
+<center >
+ 
+  <?php echo "<h1>$pegacookie</h1>";?>
+  <hr>
+
+    <script>
+jQuery().ready(function(){
+    setInterval("getResult()",7000);
+});
+function getResult(){   
+    jQuery.post("alarme.php?sinal=ON",function( data ) {
+        jQuery("#msgs").html(data);
+    });
+}
+</script>
+<div id="msgs"> 
+</div>
+
